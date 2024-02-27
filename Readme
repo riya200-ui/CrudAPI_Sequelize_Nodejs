@@ -1,0 +1,19 @@
+node -v
+npm -version
+mkdir src
+cd src
+npm init
+npm install express mysql cors 
+npm install -g nodemon 
+node server.js
+package.json => script ==  "start": "nodemon server.js"
+npm start
+  
+******** POSTMAN ROUTE ********
+getAllUser ==> http://localhost:8080/api/users
+create==> http://localhost:8080/api/users
+update ==> http://localhost:8080/api/users/:id
+delete ==> http://localhost:8080/api/users/:id 
+getoneuser ==>  http://localhost:8080/api/users/:id
+
+
